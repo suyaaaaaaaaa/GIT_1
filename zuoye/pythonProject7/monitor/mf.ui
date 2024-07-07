@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>696</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>971</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="video1">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>961</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>69</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>车牌号：</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_6">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>70</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="carnum">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:red
+</string>
+    </property>
+    <property name="text">
+     <string>川A.YB106</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>631</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>人车流量监控系统</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>991</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">            font-family: &quot;Arial&quot;;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            background-color: green;  /* 绿色背景 */
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            background-image: url(&quot;D:/大三下/企业实训/资料/day03/pythonProjectQT/data/bg3.jpg&quot;);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;  /* 调整背景图片的大小，使其覆盖标签 */</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>frame</zorder>
+  <zorder>frame_5</zorder>
+  <zorder>frame_6</zorder>
+  <zorder>title</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

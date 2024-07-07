@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="D:\大三下\企业实训\资料\day03\pythonProjectQT\data1">
+    <file>背景0.JPG</file>
+    <file>背景0.JPG</file>
+  </qresource>
+  <qresource prefix="新前缀">
+    <file>背景0.JPG</file>
+  </qresource>
+</RCC>
